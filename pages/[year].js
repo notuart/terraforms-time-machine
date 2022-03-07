@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router'
 import Link from 'next/link'
-import { useState } from 'react'
+// import { useState } from 'react'
 
 export const getStaticProps = async () => {
   let years = []
@@ -84,7 +84,7 @@ export default function token({ years }) {
         </div> */}
       </div>
       
-      <div class="aspect-video flex items-center flex-wrap flex-row">
+      <div className="aspect-video flex items-center flex-wrap flex-row">
         {[...Array(12)].map((x, i) => <Terraform key={i} id={i + 1} />)}
       </div>
     </div>
