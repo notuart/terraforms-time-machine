@@ -59,6 +59,16 @@ export default function Year({ years }) {
       <div className="aspect-video flex items-center flex-wrap flex-row">
         {[...Array(12)].map((x, i) => <Terraform key={i} id={i + 1} />)}
       </div>
+      <footer className="flex items-center justify-center w-full mt-12">
+        <a
+          className="flex items-center justify-center"
+          href="https://twitter.com/notuart"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="/notu.svg" alt="notu" className="h-6 ml-2" />
+        </a>
+      </footer>
     </div>
   )
 }

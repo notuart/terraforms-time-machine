@@ -27,54 +27,53 @@ export default function Home() {
             }}
           >
             <div className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600">
-              <h3 className="text-2xl font-bold">Start &rarr;</h3>
+              <h3 className="text-2xl font-bold">Explore &rarr;</h3>
               <p className="mt-4 text-xl">
-                Navigate a snapshot of 12 Terraforms across 5000 years at an interval of 100 years.
+                12 unofficial Terraforms across 5000 years at an interval of 100 years.
               </p>
             </div>
           </Link>
 
           <a
-            href="https://nextjs.org/learn"
+            href="https://docs.google.com/presentation/d/1v0ccwju6isFD8lIRKFyiPLxbVJhPCSmLLjxF3TBZG4I/edit#slide=id.g116deb5c225_33_19"
             className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
           >
             <h3 className="text-2xl font-bold">Learn &rarr;</h3>
             <p className="mt-4 text-xl">
-              Learn about Next.js in an interactive course with quizzes!
+              Jump into the Terraforms by Mathcastles rabbit hole.
             </p>
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
+            href="https://opensea.io/collection/terraforms"
             className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
           >
-            <h3 className="text-2xl font-bold">Examples &rarr;</h3>
+            <h3 className="text-2xl font-bold">Collection &rarr;</h3>
             <p className="mt-4 text-xl">
-              Discover and deploy boilerplate example Next.js projects.
+              Discover the real Terraforms by Mathcastles on OpenSea.
             </p>
           </a>
 
           <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://github.com/notuart/terraforms"
             className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
           >
-            <h3 className="text-2xl font-bold">Deploy &rarr;</h3>
+            <h3 className="text-2xl font-bold">Code &rarr;</h3>
             <p className="mt-4 text-xl">
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              Explore the contracts used to generate this experiment.
             </p>
           </a>
         </div>
       </main>
 
-      <footer className="flex items-center justify-center w-full h-24 border-t">
+      <footer className="flex items-center justify-center w-full h-24">
         <a
           className="flex items-center justify-center"
           href="https://twitter.com/notuart"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Created by {' '} @notu
-          {/* <img src="/vercel.svg" alt="Vercel Logo" className="h-4 ml-2" /> */}
+          <img src="/notu.svg" alt="notu" className="h-6 ml-2" />
         </a>
       </footer>
     </div>
