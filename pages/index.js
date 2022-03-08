@@ -2,20 +2,6 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 
-export const getStaticProps = async () => {
-  let years = []
-
-  for (let i = 0; i <= 5000; i += 100) {
-    years.push(i)
-  }
-  
-  return {
-    props: {
-      years: years,
-    },
-  };
-};
-
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">

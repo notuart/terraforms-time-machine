@@ -2,34 +2,6 @@ import { useRouter } from 'next/router'
 import Link from 'next/link'
 import React, { useState } from 'react'
 
-export const getStaticProps = async () => {
-  let years = []
-
-  for (let i = 0; i <= 5000; i += 100) {
-    years.push(i)
-  }
-
-  return {
-    props: {
-      years: years,
-    },
-  };
-};
-
-export const getStaticPaths = async () => {
-  let paths = []
-
-  for (let i = 0; i <= 5000; i += 100) {
-    paths.push({
-      params: {
-        year: (i).toString(), 
-      },
-    })
-  }
-
-  return { paths, fallback: false };
-};
-
 export default function Year({ years }) {
   const router = useRouter()
   const current = parseInt(router.query.year)
