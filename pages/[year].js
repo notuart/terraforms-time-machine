@@ -59,7 +59,7 @@ export default function token({ years }) {
           </button>
         </Link>
 
-        <h1 className="flex font-bold w-100">Year {current}</h1>
+        <h1 className="flex font-bold w-100 text-lg text-center w-auto">Year <br /> {current}</h1>
 
         <Link
           href={{
