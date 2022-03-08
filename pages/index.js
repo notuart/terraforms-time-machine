@@ -26,7 +26,7 @@ export default function Home() {
               query: { year: 0 },
             }}
           >
-            <div className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600">
+            <div className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600 cursor-pointer">
               <h3 className="text-2xl font-bold">Explore &rarr;</h3>
               <p className="mt-4 text-xl">
                 12 unofficial Terraforms across 5000 years at an interval of 100 years.
@@ -36,7 +36,7 @@ export default function Home() {
 
           <a
             href="https://docs.google.com/presentation/d/1v0ccwju6isFD8lIRKFyiPLxbVJhPCSmLLjxF3TBZG4I/edit#slide=id.g116deb5c225_33_19"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
+            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600 cursor-pointer"
           >
             <h3 className="text-2xl font-bold">Learn &rarr;</h3>
             <p className="mt-4 text-xl">
@@ -46,7 +46,7 @@ export default function Home() {
 
           <a
             href="https://opensea.io/collection/terraforms"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
+            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600 cursor-pointer"
           >
             <h3 className="text-2xl font-bold">Collection &rarr;</h3>
             <p className="mt-4 text-xl">
@@ -56,7 +56,7 @@ export default function Home() {
 
           <a
             href="https://github.com/notuart/terraforms"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
+            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600 cursor-pointer"
           >
             <h3 className="text-2xl font-bold">Code &rarr;</h3>
             <p className="mt-4 text-xl">
