@@ -30,7 +30,7 @@ export const getStaticPaths = async () => {
   return { paths, fallback: false };
 };
 
-export default function token({ years }) {
+export default function year({ years }) {
   const router = useRouter()
   const current = parseInt(router.query.year)
   const prev = current - 100 < 0 ? 5000 : current - 100
@@ -59,7 +59,7 @@ export default function token({ years }) {
           </button>
         </Link>
 
-        <h1 className="flex font-bold w-100 text-lg text-center w-auto">Year <br /> {current}</h1>
+        <h1 className="flex font-bold w-100 text-xl text-center w-auto">Year <br /> {current}</h1>
 
         <Link
           href={{
