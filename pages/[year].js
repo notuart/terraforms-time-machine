@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router'
 import Link from 'next/link'
-// import { useState } from 'react'
+import React, { useState } from 'react'
 
 export const getStaticProps = async () => {
   let years = []
@@ -30,7 +30,7 @@ export const getStaticPaths = async () => {
   return { paths, fallback: false };
 };
 
-export default function year({ years }) {
+export default function Year({ years }) {
   const router = useRouter()
   const current = parseInt(router.query.year)
   const prev = current - 100 < 0 ? 5000 : current - 100
